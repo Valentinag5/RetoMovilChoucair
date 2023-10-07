@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.choucair.runners.RegistroRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="VALENTINA" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[33mUndefined scenarios:?[0m
+file:///C:/Users/USUARIO/Desktop/RetoAppiumChoucair/src/test/resources/features/Registro.feature:8 # Registrarse
+
+1 Scenarios (?[33m1 undefined?[0m)
+3 Steps (?[36m2 skipped?[0m, ?[33m1 undefined?[0m)
+0m3,556s
+
+
+You can implement missing steps with the snippets below:
+
+@Dado("que estoy en la app exito.com y quiero crear una cuenta")
+public void queEstoyEnLaAppExitoComYQuieroCrearUnaCuenta() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Cuando("ingreso los datos solicitados")
+public void ingresoLosDatosSolicitados() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/USUARIO/Desktop/RetoAppiumChoucair/src/test/resources/features/Registro.feature
+[Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO  - Test Suite Started: Registrar usuario
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3743539f: Generating report for test outcome: Registrar usuario:Registrarse
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@42fb8c87: Generating report for test outcome: Registrar usuario:Registrarse
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/USUARIO/Desktop/RetoAppiumChoucair/src/test/resources/features/Registro.feature
+]]></system-err>
+</testsuite>
